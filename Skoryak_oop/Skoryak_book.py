@@ -16,4 +16,7 @@ class Book:
             print('Incorrect year of publication\n')
         except TypeError:
             print('Use only numbers for year of publication\n')
-            
+
+some_book = Book("Harry Potter and the Philosopher's Stone", 'J. K. Rowling', 1997)
+some_book.get_data_book()
+some_book.get_data_age()
